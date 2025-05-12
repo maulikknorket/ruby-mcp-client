@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
 
   spec.files         = Dir.glob('lib/**/*.rb') + ['README.md', 'LICENSE']
-  spec.required_ruby_version = '>= 3.2.0'
+  spec.required_ruby_version = '>= 3.0.0'
   spec.require_paths = ['lib']
   # HTTP instrumentation
   spec.add_dependency 'faraday', '~> 2.0'
